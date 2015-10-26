@@ -19,7 +19,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body id="home">
     <nav class="navbar navbar-default navbar-fixed-top" id="menu-top">
       <div class="container">
         <div class="navbar-header">
@@ -35,12 +35,12 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#about">Testimonials</a></li>
-            <li><a href="#about">Advantages</a></li>
-            <li><a href="#about">Buy</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a data-scroll href="#home">Home</a></li>
+            <li><a data-scroll data-options='{"offset": 80}' href="#about">About</a></li>
+            <li><a data-scroll data-options='{"offset": 80}' href="#testimonial">Testimonials</a></li>
+            <li><a data-scroll data-options='{"offset": 80}' href="#advantages">Advantages</a></li>
+            <li><a data-scroll data-options='{"offset": 80}' href="#buy">Buy</a></li>
+            <li><a data-scroll href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container -->
@@ -57,7 +57,7 @@
         <a class="btn btn-default text-uppercase" href="#">Discover more</a>
       </div>
     </header><!--/header -->
-    <section class="benefits">
+    <section id="about" class="benefits">
       <div class="col-one">
         <div class="advantage">
           <div class="col-content">
@@ -74,7 +74,7 @@
             <p> Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions. </p>
           </div>
           <div class="col-img">
-            <i class="fa fa-thumbs-up fa-2x"></i>
+            <i class="fa fa-hand-rock-o fa-2x"></i>
           </div>
         </div>
         <div class="advantage">
@@ -83,7 +83,7 @@
             <p> Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
           </div>
           <div class="col-img">
-            <i class="fa fa-thumbs-up fa-2x"></i>
+            <i class="fa fa fa-industry fa-2x"></i>
           </div>
         </div>
       </div><!--/.col-one -->
@@ -93,7 +93,7 @@
       <div class="col-three">
         <div class="advantage">
           <div class="col-img">
-            <i class="fa fa-thumbs-up fa-2x"></i>
+            <i class="fa fa fa-hand-peace-o fa-2x"></i>
           </div>
           <div class="col-content">
             <h3>Now or never</h3>
@@ -104,7 +104,7 @@
         </div>
         <div class="advantage">
           <div class="col-img">
-            <i class="fa fa-thumbs-up fa-2x"></i>
+            <i class="fa fa fa-hourglass fa-2x"></i>
           </div>
           <div class="col-content">
             <h3>Good things come to those who wait</h3>
@@ -113,7 +113,7 @@
         </div>
         <div class="advantage">
           <div class="col-img">
-            <i class="fa fa-thumbs-up fa-2x"></i>
+            <i class="fa fa-sun-o fa-2x"></i>
           </div>
           <div class="col-content">
             <h3>The early bird catches the worm</h3>
@@ -135,7 +135,7 @@
         <div class="item"> If you would like to arrange an initial meeting please <strong>contact us</strong>  today.</div><!-- /.item -->
       </div> <!-- /.content -->
     </section><!--/.impact-phrase -->
-    <section class="testimonial">
+    <section id="testimonial" class="testimonial">
       <div class="two-col">
         <div class="col-one">
           <div class="testimonial-area">
@@ -212,7 +212,7 @@
         </div><!--/.col-two -->
       </div><!--/.two-col -->
     </section><!--/.testimonial -->
-    <section class="accordion-info">
+    <section id="advantages" class="accordion-info">
       <h2>What do I gain?</h2>
 
       <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -262,12 +262,12 @@
         </div><!-- /.panel -->
       </div>
     </section>
-    <section class="info-jumbotron">
+    <section id="buy" class="info-jumbotron">
       <h2>Do you want to buy?</h2>
       <p>I've got my kids brainwashed innovation Whoo! microsoft excel. I've got my kids brainwashed google is not a real company programming bing. Most people steal music i don't know what a monopoly is vista microsoft excel windows will be everywhere microsoft word windows. Innovation no i do not have an ipod i don't know what a monopoly is Whoo! windows phone open source outlook. No i do not have an ipod there's no chance that the iPhone is going to get any significant market share DEVELOPERS windows most people steal music Whoo! innovation.</p>
       <a class="btn" href="#">Buy it</a>
     </section>
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="two-col">
         <div class="col-one">
           <h2><strong>Do you want </strong>to buy the project?</h2>
